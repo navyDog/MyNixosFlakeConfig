@@ -46,8 +46,8 @@
     xserver = {
       enable = true;
       layout = "fr";
-      displayManager.sddm.enable = true;
-      desktopManager.plasma5.enable = true;
+      displayManager.defaultSession = "xfce";
+      desktopManager.xfce.enable = true;
       libinput = {
 	enable = true;
         touchpad = {
